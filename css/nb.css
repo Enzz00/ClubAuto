@@ -1,0 +1,662 @@
+
+p {
+    font-family:'Open Sans';
+}
+h1 , h2 , h3, h4, h5 {font-size:3em ; }
+p {
+    font-size: 1.5em;
+    color: #949699;
+    font-weight: bold;
+}
+span {
+    color: #CC6119;
+    font-size:1em;
+}
+* li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color:#CC6119 ;
+}
+* button , #buttonreset input {
+    border: none;
+    background-color: #6C98E1;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;  
+}
+* img {
+    width:100% ;
+    object-fit: cover;
+}
+
+                /********************** HEADER **********************/
+              
+
+#beforenav .fa-solid {display: none;}
+#beforenav h1 {color: white;}
+#beforenav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5%;
+    align-items: center;
+    background-color: #232628;
+}
+#beforenav > div {
+    display: flex;
+    font-size: 0.9em;
+    align-items: center;
+}
+.ouverturehoraires  {
+    display: flex; 
+    flex-direction: column;
+}
+.ouverturehoraires p {margin: 0;}
+#beforenav img {
+    width: 50px;
+    height: 50px;;
+}
+#fbtwiter .fa-brands {font-size: 3em; color: white; margin-right: 25%;}
+#mainnav {background-color:#c8cbcf8c ;}
+#mainnav ul {
+    display: flex;
+    justify-content: end;
+    margin: 0 7% 0 0;
+}
+#mainnav li {
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 1.4em;
+    padding-right:1.5em;
+}
+#mainnav a:hover {
+    background-color: #CC6119;
+    color: white;
+    padding: 20px;
+    text-decoration:none ;
+}
+
+                    /************************ PAGE CONTENT INDEX    ***********************/
+
+#titlebanner img {
+    height: 80vh;
+
+}
+#titlebanner {
+    background-color: #232628;
+}
+#titlebanner h1 {
+   padding: 0 0 30px 5%;
+   color: white;
+}
+#pagecontent {margin: 5% 0; font-size: 0.7em;}
+#pagecontent img {
+    width: 49%;
+}
+#firstcolumn  h1 , #firstcolumn h4 , #secondcolumn h4 { font-size: 2em;}
+#firstcolumn , #secondcolumn{
+    display: flex;
+    margin: 0 10%;
+}
+#firstcolumn  {
+    margin-bottom: 3em;
+}
+#firstcolumn  div {margin-left: 30px;}   #secondcolumn > div  {margin-right: 30px;}
+#pagecontent p , 
+#pagecontent li {font-size: 1.8em; line-height: 1.5em;} 
+#pagecontent li {
+    list-style-type: disc;
+}
+#pagecontent ul {padding: 20px;}
+#blockbanniere {position: relative;}
+#louer p ,#acheter p {
+    color: white;
+    font-size: 1.4em;
+}
+.achetezlouer{
+    position: absolute; 
+    top: 10%;
+    display: flex;
+    margin: 0 10%;
+    gap: 2em;
+}
+#louer, #acheter , #contenueventeetloc{
+    padding: 20px 30px;
+}
+#louer , #contenueventeetloc{
+    background-color:#fab637d3;
+}
+#acheter {
+    background-color:#ff4848e1;
+}
+#vehicule {
+    background-color: #232628;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 48%;
+}
+#vehicule h2 {
+    color: white;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 12% 5% 12%;
+    gap: 3%;
+    border-top: #CC6119 solid 3px;
+}
+.pic {
+    margin-top: 5%;
+}
+.detail {
+    background-color: #373c3f;
+    color: white;
+    font-size: 0.6em;
+}
+.detail > div {
+    display: flex; 
+    padding: 0 20px;
+    align-items: center;
+    justify-content: space-around;
+}
+.price {
+    color: white;
+    margin: 5% 0;
+    padding:20px 10px;
+    font-size: 1.3em;
+}
+.traitdetail {
+    border: #3a6783 3px solid;
+    width: 10%;
+}
+#pourquoinous {
+    display: flex;
+    flex-direction: column;
+    margin: 0 10%;
+    align-items: center;
+}
+.container2 {
+    display: flex;
+    flex-direction: row;
+}
+.block1  {
+    display: flex;;
+}
+.contenue h4 {
+    font-size: 2em;
+}
+.logo  {
+    width: 100%;
+    margin: 10% 5% 0 0;
+}
+#contacteznous button {
+    padding: 20px 30px;
+    font-size: 1.3em;
+    margin:20% 0 ;
+}
+#clubauto img {
+    height: 80vh;
+}
+
+                        /***************** PAGE LOC / VENTE *************/
+
+#clubauto {
+    position: relative;
+    height: 80vh;
+}
+#contenueventeetloc {
+    position:absolute;
+    top: 10%;
+    width: 35%;
+    margin-left: 10%;
+}
+#titleloc h1 {
+    position: absolute;
+    z-index: 2;
+    color: white;
+    left: 5%;
+}
+#bannierelocvente { 
+    filter: brightness(50%);
+    height: 30vh;
+}
+.voiturelocation {
+    width: 35%;
+}
+#pagecontentloc {
+    display: grid;
+    grid-template-columns: 60% 45%;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+#containerlocation {
+    width: 100%;
+}
+.blockcontent h3 {
+    font-size: 2.2em;
+}
+.blockcontent a , .blockcontent p {
+    font-size: 1.5em;
+}
+#choixprix , #pagecontentloc {margin-left: 5%;}
+.contenant , #message {
+    display: flex;
+    flex-direction: column;
+}
+#choixprix {
+    font-size: 1.5em;
+    margin-top: 3%;
+}
+.traitloc {
+    border: #373c3f75 1px solid;
+    margin: 2% 0;
+    width: 100%;
+}
+.blockloc {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 5%;
+    margin-bottom: 5%;
+}
+.titlebutton {
+    display: flex;
+    margin-top: -6%;
+    align-items: baseline;
+}
+.titlebutton button {
+    padding: 15px 25px;
+    height: 20%;
+    border-radius: 0;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#rightcolonelocation {
+    box-shadow: 0 0 10px 10px #525d6d5e;
+    width: 40%;
+    margin-top: -25%;
+    position: relative;
+}
+#searchbarre img {
+width: 20%;
+height: 20%;
+}
+#searchbarre {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #232628;
+    color: white;
+    font-size: 0.6em;
+    padding-left: 20px;
+    gap: 2%;
+}
+#containerchoix {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 20px;
+}
+#containerchoix select {
+    padding: 10px;
+    font-size: 1.2em;
+}
+#prixlocation p {
+    color: black;
+    font-size: 1.8em;
+}
+#prixlocation input , #minmax input {
+    width: 100%;
+}
+#minmax {
+    display: flex;
+    gap: 15%;
+}
+#minmax input {
+    padding: 10px 10px;
+}
+#buttonreset input{
+    width: 100%;
+    padding: 10px 20px;
+    border-radius: 0;
+}
+#contentdetail {
+    margin-left: 5%;
+    width: 90%;
+}
+#navbardetail {
+    border-bottom: #949699 2px solid;
+    font-size: 1.3em;
+}
+#imgdetail h1 {font-size: 2.5em;}
+#description , #imgvehiculedetail , #navbardescription{
+    width: 60%;
+}
+#navbardescription {
+    background-color: #232628;
+    display: flex;
+    padding: 20px 0 20px 5px;
+    gap: 3%;
+}
+#navbardescription a {
+    color: white;
+}
+#navbardescription a:hover {
+    background-color: white;
+    color: #232628;
+    padding: 20px 20px 21px 20px;
+    border-top: #CC6119 4px solid;
+}
+#description {margin-bottom: 5%;}
+#description1 {font-size: 1.1em;}
+#description p {
+    color: rgba(0, 0, 0, 0.61);
+    line-height: 1.5em;
+}
+#description3 {
+    display: flex;
+}
+#detailtrait {
+    border: #CC6119 2px solid;
+    margin-right: 5%;
+}
+#option li {
+    list-style-type: circle;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-left: -2%;
+}
+
+                                /********************* PAGE CONTACT *************/
+
+#contactcontainer {
+    display: flex;
+    width: 100%;
+}
+#inputcontact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+    width: 70%;
+    
+}
+#messagecontact {
+    margin-left: 5%;
+    width: 30%;
+}
+#messagecontact textarea {
+    height: 11vh;
+    resize: none;
+}
+#containercontact input , textarea , select, #minmax input{
+    background-color: #7483993a;
+    border: none;
+    padding: 10px 15px;
+    margin-top: 3%;
+}
+#bannierecontact {
+    margin-bottom: 15%;
+    height: 40vh;
+    position: relative;
+}
+#containercontact {
+    position: absolute;
+    top: 35%;
+    box-shadow: 0 0 10px 10px #525d6d5e;
+    margin: 0 10%;
+    width: 70%;
+    height: 40%;
+    padding: 2% 5%;
+    background-color: white;
+}
+#containercontact button {
+    margin: 2% 0 0 71.5%;
+    padding: 15px 35px;
+
+}
+
+                                    /********************** FOOTER ***************/
+
+footer {
+    background-color: #232628;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#footer > div {
+    width: 23%;
+    gap: 5%;
+    padding: 20px 0;
+}
+#footer {
+    display: flex;
+    margin: 0 10%;
+    justify-content: space-between;
+    border-bottom: #373c3f 3px solid;
+}
+#footer h4 { font-size: 1.5em;}
+footer span {
+    color: #6C98E1;
+}
+footer h4 {
+    color: white;
+}
+#horaire span {
+    color: white;
+}
+#NEWSLETTER input {
+    padding: 10px 15px;
+}
+#NEWSLETTER button {
+    background-color: #CC6119;
+    border-radius: 0%;
+}
+footer button {
+    font-size: 12px;
+}
+#NEWSLETTER {
+    display: flex;
+}
+#NEWSLETTER .fa-solid {
+    font-size: 3em;
+    color: white;
+}
+#reseauxsociaux .fa-brands {
+    font-size: 3em ;
+    color: white;
+    margin-left: 20px;
+}
+                
+
+                        /********************* MEDIA QUERIES *******************/
+                        @media screen and (min-width: 350px) and (max-width: 1000px)  {
+
+    #beforenav .blockadresse , #beforenav .ouverturehoraires , #beforenav #fbtwiter , #title1 .displaynone , #mainnav , #ImgBanner{ 
+        display: none;
+    }
+    #title1 {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-around;
+    }
+    #title1 h1 {
+        font-size: 4.2em;
+    }
+    #title1 .fa-solid {
+        margin-left: 90%;
+    }
+    #beforenav .fa-solid  {
+        color: #6C98E1;
+        font-size: 4em;
+        display: flex;
+    }
+    #beforenav {
+        display: block;
+    }
+    .blocktelephone p  {   font-size:3em; color: white; } 
+    #beforenav img {width:75px ; height: 75px;}
+    
+    #titlebanner {
+        padding: 10px 10px;
+        font-size: 1em;
+    }
+    #firstcolumn , #secondcolumn {
+        display: flex;
+        flex-direction: column;
+    }
+    #pagecontent img {
+        width: 100%;
+        margin: 5% 0;
+    }
+    #pagecontent li{
+        font-size: 2.3em;
+    }
+    #blockbanniere img{
+        height: 115vh;
+    }
+    .achetezlouer {
+        flex-direction: column;
+        top: 5%;
+        margin: 0;
+    }
+    #louer, #acheter {
+        width: 100%;
+        padding: 0;
+    }
+    #louer h3 , #louer p , #acheter h3 , #acheter p {
+        padding: 0 20%;
+    }
+    #acheter h3 , #louer h3 {
+    font-size: 2.2em;
+    }   
+    #vehicule {
+        position: relative;
+    }
+    #vehicule h2 , #pourquoinous h2{ font-size: 2.4em;}
+    #vehiculerecent2 , #vehiculerecent3 {
+        display: none;
+    }  
+    #container{
+        margin: 0;
+        display: flex;
+        width: 90%;
+    }
+    #vehiculerecent1 {
+        width: 100%;
+    }
+    .contenue h4 {font-size: 1.8em;}
+    #vehiculerecent1 img {
+        height: auto;
+    }
+    .detail > div  {
+        flex-direction: column-reverse;
+        align-items: start;
+        font-size: 1.5em;
+    }
+ 
+    .detail #traitdetail {
+        border: #373c3f 3px solid;
+    }
+    .container2 {
+        flex-direction: column;
+    }
+    #contacteznous button {
+        width: 80%;
+        margin-left: 12%;
+        font-size: 2em;
+    }
+    #contenueventeetloc {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    #contenueventeetloc h2, #contenueventeetloc p {
+        padding: 0 10% ;
+        margin: 8% 0;
+        color: black;
+        line-height: 1.5em;
+    }
+
+    #contenueventeetloc h2 { font-size: 2.3em;}
+    #contenueventeetloc span {color: white;}
+    #footer {
+        flex-direction: column;
+    }
+    #footer > div  {
+        width: 100%;
+    }
+    #NEWSLETTER input {
+        padding: 20px 20px;
+        width: 100%;
+        font-size: 1.5em;
+    }
+    #pagecontentloc {
+        display: flex;
+        flex-direction: column-reverse
+    }
+    #rightcolonelocation {
+        margin: 0 0 0 7%;
+        width: 80%;
+    }
+    #leftlocation {margin-top: 10%;}
+    #choixprix {display: none;}
+    .blockloc {
+        flex-direction: column;
+    }
+    .voiturelocation {
+        width: 95%;
+    }
+    .traitloc {width: 95%;}
+    .titlebutton {
+        flex-direction: column-reverse;
+    }
+    .titlebutton button  {
+        width: 95%;
+    }
+    #navbardetail p {font-size: 2em; font-weight: 400;}
+    #description , #imgvehiculedetail , #navbardescription {
+        width: 95%;
+    }
+    #navbardescription {
+        flex-direction:column ;
+        align-items: center;
+        font-size: 2em;
+    }
+    #navbardescription li {
+        margin-bottom: 10%;
+    }
+    #navbardescription a:hover {
+        padding: 20px 115px 25px 125px
+        }
+    #contactcontainer {flex-direction: column; font-size: 1.3em; }
+    #inputcontact {
+        display: flex;
+        flex-direction: column;
+    }
+    #inputcontact > div {margin-bottom: 10%;}
+    #bannierecontact {
+        margin-bottom: 100%;
+        height: 70vh;
+    }
+    #containercontact {
+        top: 60%;
+        height: auto;
+    }
+    #inputcontact , #messagecontact  {
+        width: 100%; 
+        margin: 0;
+    }
+    #containercontact button {
+        margin: 10% 0 5% 0 ;
+        font-size: 2em;
+        width: 70%;
+    }
+  
+}                
+
